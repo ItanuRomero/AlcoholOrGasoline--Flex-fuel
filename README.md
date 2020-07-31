@@ -7,4 +7,6 @@ https://www.linkedin.com/in/itanu-romero-86968817b/
 - [ ] A prototype in PWA Technology.
 - [ ] Possibility of connection to a location system.
 
+*working on a manifest.json*
+
 ## See ya!
