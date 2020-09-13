@@ -1,0 +1,28 @@
+html body {
+    background-color: black;
+    text-align: center;
+}
+
+#logo img {
+    margin-top: 2rem;
+    max-width: 80px;
+}
+
+#message {
+    color: white;
+}
+
+body .button button {
+    margin: 0.3rem;
+    padding: 0rem;
+
+    width: 10rem;
+    height: 1.8rem;
+
+    border: 0px;
+    border-radius: 1rem;
+}
+
+body .button #confirm {
+    background-color: gray;
+}
