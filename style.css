@@ -12,6 +12,10 @@ header h1 {
     margin-bottom: 0;
 }
 
+header #alert {
+    color: whitesmoke;
+}
+
 #logo img {
     max-width: 15rem;
     max-height: 10rem;
