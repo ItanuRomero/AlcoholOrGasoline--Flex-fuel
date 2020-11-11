@@ -1,12 +1,15 @@
 # AlcoholOrGasoline
- If you have a flex-fuel car and already thought about which one to buy, this app is for you.
-Obs: I'm having another ideas to implement the project, do you want to help? Send me a message on LinkedIn!
-https://www.linkedin.com/in/itanu-romero-86968817b/
+# Chegou o A or G, deixe de gastar tanto quando for abastecer!
 
-*soon I will add*
-- [ ] A prototype in PWA Technology.
-- [ ] Possibility of connection to a location system.
+**Se você tem um carro flex, provavelmente já ficou na dúvida de qual combustível comprar pra encher o tanque, esta aplicação busca simplificar isso!**
 
-*working on a manifest.json*
+### Estou com outras ideias para implementar, me chama aí no [Linkedin](https://www.linkedin.com/in/itanuromero) e vamos conversar!
+#
+# Entra na Home aí e conhece o projeto! [Aqui](aorg.netlify.app)
+### Ou digita no seu navegador: aorg.netlify.app
+#
+# Se quiser e puder apoiar, cola no [Apoia-se](https://apoia.se/projetoaorg)
 
-## See ya!
+*Logo estou adicionando algumas outras atualizações na homepage*
+
+## See ya! // Abraço!

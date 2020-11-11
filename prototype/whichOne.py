@@ -19,5 +19,5 @@ print('Still having doubts?\n'
 '''
 Program written by: Itanu Romero.
 For more information please contact me:
-https://www.linkedin.com/in/itanu-romero-86968817b/
+https://www.linkedin.com/in/itanuromero/
 '''
