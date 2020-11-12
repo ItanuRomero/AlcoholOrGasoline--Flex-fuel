@@ -18,8 +18,9 @@ header #alert {
 
 #logo img {
     max-width: 15rem;
-    max-height: 10rem;
     filter: invert(1);
+    margin-top: -2rem;
+    margin-bottom: -2.5rem;
 }
 
 #message {
@@ -64,9 +65,7 @@ footer {
     text-align: center;
     justify-content: center;
 
-    margin-top: 2rem;
-
-    
+    margin-top: 3rem;
 }
 
 footer img {
