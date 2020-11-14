@@ -1,0 +1,19 @@
+footer#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer#main a#linkGithub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer#main a#linkGithub img {
+    max-width: 3rem;
+}
+
+footer#main a#linkGithub p {
+    color: whitesmoke;
+}
