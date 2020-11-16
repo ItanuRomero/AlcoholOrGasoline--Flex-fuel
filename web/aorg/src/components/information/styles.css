@@ -1,0 +1,72 @@
+.visor, .values {
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visor p {
+    width: 8rem;
+    height: 3rem;
+    
+    font-weight: 700;
+    font-size: large;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2rem;
+
+    background-color: #3f3f3f;
+
+    border-radius: 1rem;
+}
+
+.values p::before {
+    content: "R$";
+}
+
+.values p {
+    width: 8rem;
+    height: 3rem;
+
+    font-weight: 700;
+    font-size: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2rem;
+}
+
+.change-values {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 1rem;
+}
+
+.change-values button {
+    width: 60%;
+    height: 4rem;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    border-radius: 1rem;
+
+    transition: 0.2s;
+
+    background-color: whitesmoke;
+}
+
+.change-values button:hover {
+    background-color: #c5c5c5;
+}
