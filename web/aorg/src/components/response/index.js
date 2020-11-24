@@ -10,9 +10,9 @@ const Response = () => {
     let message = ''
 
     if (alcohol <= (gasoline * 0.7)){
-        message = 'You have to choose alcohol! (etanol)'
+        message = 'You have to choose alcohol!'
     } else {
-        message = 'You have to choose gasoline!!'
+        message = 'You have to choose gasoline!'
     }
 
     return (

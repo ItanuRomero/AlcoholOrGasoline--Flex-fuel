@@ -18,3 +18,14 @@ div.message p {
     border-color: red;
     border-radius: 1rem;
 }
+
+@media (max-width: 600px) {
+    div.message {
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
