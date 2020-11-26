@@ -80,12 +80,92 @@ footer p {
 
 @media (min-width: 700px)
 {
-    html body {
+    body {
+        width: 90vw;
+        height: 90vh;
+
         display: grid;
-        grid-row: 1fr 1fr 1fr;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+        grid-template-areas: "header header logo"
+                             "message message ."
+                             "button button footer"
     }   
 
-    header {
+    header h1 {
+        width: 800px;
+        height: 10rem;
+
+        grid-area: header;
+        font-size: 11rem;
+
+        margin-left: 3rem;
+        margin-top: 7rem;
         
+    }
+
+    #logo {
+        grid-area: logo;
+        margin: 0;
+        margin-left: -2rem;
+    }
+
+    #logo img {
+        margin-top: 7rem;
+        margin-right: 5rem;
+        margin-bottom: -5rem;
+    }
+
+    #message {
+        grid-area: message;
+
+        width: 700px;
+        max-width: 700px;        
+
+        margin-left: 9rem;
+        
+    }
+
+    .button {
+        grid-area: button;
+        width: 800px;
+        max-width: 800px;
+        max-height: 70px;
+
+        margin-left: 5rem;
+        
+        
+    }
+
+    .button a button {
+        width: 300px;
+
+        font-size: 25px;
+        font-weight: 800;
+
+        margin: 10px;
+
+        height: 70px;        
+    }
+
+    footer {
+        grid-area: footer;
+        margin-left: 0;
+        margin-top: -1rem;
+
+        width: 150px;
+        height: 150px;
+
+        
+    }
+
+    footer a img {
+        width: 3rem;
+    }
+
+    footer a p {
+        font-size: large;
     }
 }
